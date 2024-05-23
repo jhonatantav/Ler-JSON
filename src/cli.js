@@ -30,7 +30,7 @@ program
 		}
   })
 
-program.parse();	
+program.parse();
 
 function processaArquivo(texto, destino){
   fs.readFile(texto, 'utf-8', (erro, texto) => {
